@@ -18,7 +18,7 @@ def getChange ():
     return _change
 
 def display (maxNumberApples,change ):
-    print("You can buy", f"{maxNumberApples}" , "and your change is", f"{change:.2f} pesos.")
+    print(f"You can buy {maxNumberApples} and your change is {change:.2f} pesos.")
 
 
 money = getMoney ()
